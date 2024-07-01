@@ -4,7 +4,6 @@ import math
 from graphviz import Digraph
 import streamlit.components.v1 as components
 import traceback
-from id3_functions import id3, TreeNode
 from c45_functions import build_tree, TreeNode
 
 def main():
