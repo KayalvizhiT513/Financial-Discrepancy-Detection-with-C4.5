@@ -55,7 +55,6 @@ class TreeNode:
                     branch.add_to_flow(flow)
 
 def c45(examples, target_attribute, attributes, validation_data=None, root=None):
-    print(attributes_dict)
     root = TreeNode()
 
     # If all examples are positive, return a single-node tree with label = 'Play'
@@ -275,14 +274,14 @@ def choose_best_attribute(examples, target_attribute, attributes):
             best_attribute = attribute
     # if best_attribute == "|Portfolio Return| > 8":
     #    best_attribute = "|Portfolio Return| > 5"
-    print("\nBest attribute: ", best_attribute, " : ", best_gain_ratio)
+    # print("\nBest attribute: ", best_attribute, " : ", best_gain_ratio)
 
     sorted_attr_gain = sorted(attr_gain.items(), key=lambda item: item[1], reverse=True)
-    for key, value in sorted_attr_gain[:3]:
-        print(f"Gain: {key} {value}")
+    # for key, value in sorted_attr_gain[:3]:
+    #     print(f"Gain: {key} {value}")
     sorted_attr_gain_ratio = sorted(attr_gain_ratio.items(), key=lambda item: item[1], reverse=True)
-    for key, value in sorted_attr_gain_ratio[:3]:
-        print(f"Gain Ratios: {key} {value}")
+    # for key, value in sorted_attr_gain_ratio[:3]:
+    #     print(f"Gain Ratios: {key} {value}")
 
     # sort the attr_gain by values and print top 3
 
