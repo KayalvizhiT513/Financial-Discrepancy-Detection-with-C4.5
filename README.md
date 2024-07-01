@@ -16,6 +16,6 @@ In such imbalanced scenarios, gain ratio, the ratio of information gain to split
 To achieve the desired split—where one branch exclusively contains failing records and the other all passing records—a meticulous consideration of gain ratio becomes imperative.
 
 ### 📱 Streamlit app
-App link:https://financial-discrepancy-detection-with-c45.streamlit.app/ 
+- [App Link](https://financial-discrepancy-detection-with-c45.streamlit.app/)
+- [Data File](https://github.com/KayalvizhiT513/Financial-Discrepancy-Detection-with-C4.5/blob/main/V4%20PortfolioType_bool.xlsx)
 
-Data file: https://github.com/KayalvizhiT513/Financial-Discrepancy-Detection-with-C4.5/blob/main/V4%20PortfolioType_bool.xlsx
