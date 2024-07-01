@@ -14,3 +14,6 @@ In such imbalanced scenarios, gain ratio, the ratio of information gain to split
 
 ### ⚖️ Achieving the Optimal Split
 To achieve the desired split—where one branch exclusively contains failing records and the other all passing records—a meticulous consideration of gain ratio becomes imperative.
+
+### Streamlit app
+https://financial-discrepancy-detection-with-c45.streamlit.app/
